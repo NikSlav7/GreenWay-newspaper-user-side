@@ -1,0 +1,73 @@
+
+.welcome-slide-container{
+    width: 100%;
+    opacity: 0;
+    height: 100%;
+    transition: opacity ease-in 1s;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+}
+.welcome-message-container{
+    flex:2;
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+}
+.welocome-slide-continue-button{
+    flex: 4;
+    border: none;
+    border-radius: 0.5vh;
+    font-family: 'Libre Franklin';
+    font-size: 1vh;
+    font-weight: 600;
+    color: white;
+    background-color: var(--main-color);
+    height: 3vh;
+    margin: 5%;
+    width: 100%;
+}
+.welcome-message{
+    line-break: auto;
+    font-size: 230%;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 0;
+    padding-left: 7%;
+}
+.welcome-message-company-name{
+    font-size: 160%;
+    font-weight: 900;
+}
+.welcome-submessage-container{
+    flex: 1;
+    margin-top: 0;
+    display: block;
+    display: flex;
+}
+.welcome-submessage{
+    flex: 10;
+    font-size: 0.8vw;
+    font-weight: 300;
+    text-align: left;
+    padding: 4%;
+    padding-left: 7%;
+}
+.welcome-page-button{
+    z-index: 1;
+}
+@media (max-width: 480px) {
+    .welcome-message{
+        font-size: 2.65vh;
+    }
+    .welcome-submessage-container{
+        flex: 1;
+        margin-top: -20%;
+    }
+    .welcome-submessage{
+        font-size: 1.2vh;
+    }
+    .welcome-message-container{
+        align-items: center;
+    }
+  }
