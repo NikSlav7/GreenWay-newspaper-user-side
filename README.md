@@ -1,3 +1,6 @@
+#GreenWay
+A newspaper that sends its followers news and other info about chosen categories. This repo is for a user webstite part(website where user subscribes for a newspaper)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
